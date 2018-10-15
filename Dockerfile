@@ -1,4 +1,4 @@
-FROM zookeeper:3.4
+FROM zookeeper:3.4.9
 
 RUN mkdir /app
 
