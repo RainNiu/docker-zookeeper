@@ -6,6 +6,8 @@ COPY . /app/
 
 WORKDIR /app
 
+COPY zoo.cfg /app/conf/zoo.cfg
+
 COPY run.sh /app/run.sh
 
 CMD sh /app/run.sh
